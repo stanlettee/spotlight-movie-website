@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/spotlight-movie-website/static/css/main.41ec7e28.css",
+    "main.js": "/spotlight-movie-website/static/js/main.c5849257.js",
+    "static/js/453.f16a7415.chunk.js": "/spotlight-movie-website/static/js/453.f16a7415.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/spotlight-movie-website/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/spotlight-movie-website/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/spotlight-movie-website/index.html",
+    "main.41ec7e28.css.map": "/spotlight-movie-website/static/css/main.41ec7e28.css.map",
+    "main.c5849257.js.map": "/spotlight-movie-website/static/js/main.c5849257.js.map",
+    "453.f16a7415.chunk.js.map": "/spotlight-movie-website/static/js/453.f16a7415.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41ec7e28.css",
+    "static/js/main.c5849257.js"
+  ]
+}
