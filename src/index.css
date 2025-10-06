@@ -34,34 +34,49 @@ a{
 }
 
 .container {
-  padding: 0 16px;
-  outline: red solid 2px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 16px; 
+  box-sizing: border-box;
+  outline: solid red;
 }
 
-@media screen and (min-width: 361px) {
-  .container {
-    padding: 0 8px;
-    max-width: 377px;
-  }
 
+@media screen and (min-width: 400px) {
+  .container {
+    max-width: 360px;
+  }
 }
 
-@media screen and (min-width: 704px) {
-  .container {
-    padding: 0 12px;
-    max-width: 728px;
-  }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
 
-@media screen and (min-width: 1250px) {
-  .container {
-    padding: 0 12px;
-    max-width: 1248px;
-  }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.light {
+  background-color: white;
+  color: #121212;
 }
 
 

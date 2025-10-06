@@ -1,5 +1,212 @@
+
+
+.box {
+    display: flex;
+    height: 60px;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.headingDiv {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: rgb(13, 13, 13);
+    font-size: 28px;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.menuButton {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.menuSpan {
+    display: none;
+}
+
+.menu {
+    width: 35px;
+    height: 35px;
+}
+
+.searchButton {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    height: 40px;
+    width: 180px;
+}
+
+.searchBox {
+    outline: none;
+    border: none; 
+    outline: none;     
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 180px;
+    padding-left: 15px;
+}
+
 .icon {
-    width: 24px;
-    height: 24px;
+    position: absolute;
+    font-weight: 700;
+    top: 27%;
+    right: 2%;
+    width: 20px;
+    height: 20px;
+
+}
+
+.moviesDiv {
+    display: none;
+}
+
+.login {
+    display: none
+}
+
+
+@media screen and (min-width: 768px) {
+  .box {
+    gap: 25px;
+    height: 80px;
+  }
+
+  .heading {
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.headingDiv {
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuSpan {
+    display: inherit;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.menuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.menu {
+    width: 36px;
+    height: 36px;
+}
+
+.searchButton {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    height: 40px;
+    width: 300px;
+}
+
+.searchBox {
+    outline: none;
+    border: none; 
+    outline: none;     
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+}
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    gap: 30px;
+    
+  }
+
+  .heading {
+    color: rgb(13, 13, 13);
+    font-size: 38px;
+    font-weight: 1000;
+    text-decoration: none;
+}
+.headingDiv {
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchButton {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    height: 40px;
+    width: 500px;
+}
+
+.searchBox {
+    outline: none;
+    border: none; 
+    outline: none;     
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 500px;
     
 }
+
+.menu {
+    width: 40px;
+    height: 40px;
+}
+
+.menuSpan {
+    display: inherit;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.moviesDiv {
+    display: flex;
+}
+
+.login {
+    display: flex;
+}
+}
+

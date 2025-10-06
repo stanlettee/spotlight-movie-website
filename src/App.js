@@ -27,21 +27,14 @@ fetch(url, options)
 
 function App() {
   const [page, setPage] = useState('home');
-  const [theme, setTheme] = useState('light')
-  const changeTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-
-    if (newTheme === 'light') {
-      document.body.style.backgroundColor = "white";
-      document.body.style.color = "rgb(6, 5, 5)";
-    } else {
-      document.body.style.backgroundColor = "rgb(6, 5, 5)";
-      document.body.style.color = "white";
-    }
-  };
+  // const [theme, setTheme] = useState('light')
+  // const changeTheme = () => {
+  //   const newTheme = theme === 'light' ? 'dark' : 'light';
+  //   setTheme(newTheme);
+  //   document.body.className = newTheme;
+  // };
   return <> <header className="header">
-    <Header setPage={setPage} changeTheme={changeTheme} theme={theme}/>
+    <Header setPage={setPage}/>
     </header>
 
     <main>
